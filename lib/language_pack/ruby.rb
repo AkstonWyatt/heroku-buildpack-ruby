@@ -482,7 +482,7 @@ EOF
 
     installer = LanguagePack::Installers::HerokuRubyInstaller.new(
       multi_arch_stacks: MULTI_ARCH_STACKS,
-      stack: @stack,
+      stack: "heroku-20",
       arch: @arch
     )
 
